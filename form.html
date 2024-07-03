@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BioData Form</h1>
+        <form id="biodataForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="birthplace">Birthplace:</label>
+            <input type="text" id="birthplace" name="birthplace">
+
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <label for="family_position">Family Position:</label>
+            <input type="text" id="family_position" name="family_position">
+
+            <label for="education_history">Education History:</label>
+            <input type="text" id="education_history" name="education_history">
+
+            <label for="professional_goal">Professional Goal:</label>
+            <input type="text" id="professional_goal" name="professional_goal">
+
+            <label for="interests">Interests:</label>
+            <input type="text" id="interests" name="interests">
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
